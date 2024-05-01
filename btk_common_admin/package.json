@@ -1,12 +1,13 @@
 {
-  "name": "common_admin",
+  "name": "btk_common_admin",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "rsbuild dev --open",
     "build": "rsbuild build",
-    "preview": "rsbuild preview"
+    "preview": "rsbuild preview",
+    "clean": "rm -rf bun.lockb dist"
   },
   "dependencies": {
     "@module-federation/enhanced": "^0.1.11",
