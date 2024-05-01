@@ -1,0 +1,15 @@
+{
+  "name": "btk-admin-fe",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "",
+  "workspaces": [
+    "common_admin",
+    "common_services",
+    "udestiny"
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules common_admin/node_modules common_services/node_modules udestiny/node_modules bun.lockb common_admin/bun.lockb common_services/bun.lockb udestiny/bun.lockb"
+  }
+}
