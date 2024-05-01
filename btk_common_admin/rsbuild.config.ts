@@ -16,7 +16,7 @@ export default defineConfig({
         rspack: (config, {appendPlugins}) => {
             appendPlugins([
                 new ModuleFederationPlugin({
-                    name: 'common_admin',
+                    name: 'btk_common_admin',
                     exposes: {
                         './app': './src/App',
                     },

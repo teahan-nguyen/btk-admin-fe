@@ -16,7 +16,7 @@ export default defineConfig({
         rspack: (config, {appendPlugins}) => {
             appendPlugins([
                 new ModuleFederationPlugin({
-                    name: 'common_services',
+                    name: 'btk_common_services',
                     exposes: {
                         './blog': './src/blog/Blog',
                         './cms': './src/cms/Cms',

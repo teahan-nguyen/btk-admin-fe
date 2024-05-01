@@ -12,10 +12,10 @@ export default defineConfig({
         rspack: (config, {appendPlugins}) => {
             appendPlugins([
                 new ModuleFederationPlugin({
-                    name: 'udestiny',
+                    name: 'project_udestiny',
                     remotes: {
-                        common_admin: 'common_admin@http://localhost:3001/mf-manifest.json',
-                        common_services: 'common_services@http://localhost:3002/mf-manifest.json',
+                        '@btk/common_admin': 'btk_common_admin@http://localhost:3001/mf-manifest.json',
+                        '@btk/common_services': 'btk_common_services@http://localhost:3002/mf-manifest.json',
                     },
                     shared: {
                         ...dependencies,

@@ -1,10 +1,10 @@
 import './App.css';
 import React from "react";
-import AdminService from "common_admin/app";
-import CMSCommonService from "common_services/cms";
-import BlogCommonService from "common_services/blog";
-// const AdminService = React.lazy(() => import('common_admin/app'));
-// const CMSCommonService = React.lazy(() => import('common_services/cms'));
+import AdminService from "@btk/common_admin/app";
+import CMSCommonService from "@btk/common_services/cms";
+import BlogCommonService from "@btk/common_services/blog";
+// const AdminService = React.lazy(() => import('@btk/common_admin/app'));
+// const CMSCommonService = React.lazy(() => import('@btk/common_services/cms'));
 
 const App = () => {
     return (
